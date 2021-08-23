@@ -80,3 +80,8 @@ img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark
     max-height: 16px;
 }
 
+body, .form-all{
+
+    background:none !important;
+    
+    }
