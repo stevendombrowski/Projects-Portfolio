@@ -41,7 +41,7 @@ h2 {
 
 a[href="https://github.com/stevendombrowski"] {
     text-align: left;
-    padding-left: 20px;
+    
     
     
     
@@ -52,7 +52,7 @@ a[href="https://www.linkedin.com/in/steven-dombrowski-543809178"] {
 }
 
 a[href="https://twitter.com/StevenDombrows1"] {
-    padding-right: 20px;
+    
     
 text-align: right; }
 a[href="https://www.instagram.com/stevendombrowski"] {
@@ -78,5 +78,6 @@ img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LinkedIn_Logo
 img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/640px-Octicons-mark-github.svg.png"]{
     max-width: 40px;
     max-height: 40px;
+    
 }
 
