@@ -41,18 +41,18 @@ h2 {
 
 a[href="https://github.com/stevendombrowski"] {
     text-align: left;
-    
+    padding-left: 20px;
     
     
     
 }
 a[href="https://www.linkedin.com/in/steven-dombrowski-543809178"] {
-    
+    padding-right: 2000px;
     
 }
 
 a[href="https://twitter.com/StevenDombrows1"] {
-    
+    padding-right: 20px;
     
 text-align: right; }
 a[href="https://www.instagram.com/stevendombrowski"] {
@@ -64,24 +64,19 @@ a[href="https://www.instagram.com/stevendombrowski"] {
         justify-content: space-between;
       }
       img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Font_Awesome_5_brands_Twitter_square.svg/640px-Font_Awesome_5_brands_Twitter_square.svg.png"]{
-          max-width: 16px;
-          max-height: 16px;
+          max-width: 40px;
+          max-height: 40px;
       }
       img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"]{
-          max-width: 16px;
-          max-height: 16px;
+          max-width: 40px;
+          max-height: 40px;
       }
 img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LinkedIn_Logo_2013.svg/640px-LinkedIn_Logo_2013.svg.png"]{
-    max-width: 16px;
-    max-height: 16px;
+    max-width: 90px;
+    max-height: 90px;
 }
 img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/640px-Octicons-mark-github.svg.png"]{
-    max-width: 16px;
-    max-height: 16px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
-body, .form-all{
-
-    background:none !important;
-    
-    }
