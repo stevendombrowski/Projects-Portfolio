@@ -9,27 +9,75 @@ h1 {
 h2 {
     text-align: center;
 }
-#minihead{
-    padding-bottom: 20px;
-}
-    #head{
-    text-align: left;
+#minihead {
     
-    background: aliceblue;
+    text-align: justify; 
+
+     
+    *width: 100%;  
+    *-ms-text-justify: distribute-all-lines;
+    *text-justify: distribute-all-lines;
 }
-    #social{
-    text-align: right;
-   
-    background: aliceblue;
+ #minihead:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size:0;
+    line-height:0;}
+
+ #head, #social {
+    display: inline-block;
+    vertical-align: baseline; 
+
+    
+    *display: inline;
+    *zoom:1;
+    *text-align: right;
 }
+#head{padding-left: 50px;}
+#social{padding-right: 50px;}
+
 
 a[href="https://github.com/stevendombrowski"] {
     text-align: left;
-    padding: 20px;
-    background: aliceblue;
+    padding-left: 20px;
+    
+    
     
 }
 a[href="https://www.linkedin.com/in/steven-dombrowski-543809178"] {
-    padding: 20px;
-    background: aliceblue;
+    padding-right: 2000px;
+    
 }
+
+a[href="https://twitter.com/StevenDombrows1"] {
+    padding-right: 20px;
+    
+text-align: right; }
+a[href="https://www.instagram.com/stevendombrowski"] {
+        
+        text-align: right;
+    }
+    #links{
+        display: flex;
+        justify-content: space-between;
+      }
+      img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Font_Awesome_5_brands_Twitter_square.svg/640px-Font_Awesome_5_brands_Twitter_square.svg.png"]{
+          max-width: 40px;
+          max-height: 40px;
+      }
+      img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"]{
+          max-width: 40px;
+          max-height: 40px;
+      }
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LinkedIn_Logo_2013.svg/640px-LinkedIn_Logo_2013.svg.png"]{
+    max-width: 90px;
+    max-height: 90px;
+}
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/640px-Octicons-mark-github.svg.png"]{
+    max-width: 40px;
+    max-height: 40px;
+    padding-bottom: 20px;
+}
+
