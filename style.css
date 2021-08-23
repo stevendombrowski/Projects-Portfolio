@@ -9,3 +9,27 @@ h1 {
 h2 {
     text-align: center;
 }
+#minihead{
+    padding-bottom: 20px;
+}
+    #head{
+    text-align: left;
+    
+    background: aliceblue;
+}
+    #social{
+    text-align: right;
+   
+    background: aliceblue;
+}
+
+a[href="https://github.com/stevendombrowski"] {
+    text-align: left;
+    padding: 20px;
+    background: aliceblue;
+    
+}
+a[href="https://www.linkedin.com/in/steven-dombrowski-543809178"] {
+    padding: 20px;
+    background: aliceblue;
+}
